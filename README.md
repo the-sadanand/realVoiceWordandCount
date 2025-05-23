@@ -1,14 +1,47 @@
-Speech-to-Text Speed Monitor
-Overview
-The Speech-to-Text Speed Monitor is a Python application that records speech from the microphone, converts it to text, calculates the Words Per Minute (WPM), and gives feedback on the speech speed. The app helps users improve their speaking pace by providing real-time feedback.
-🎤 Please wait. Calibrating microphone...
-🔧 Microphone calibrated.
-⏱️ Enter how many seconds you want to record (10 to 60): 30
-🔴 Start speaking. I’ll listen for 30 seconds...
-⏳ Time left: 30 seconds
-📝 Recognizing speech...
-🗣️ You said: "Hello, my name is John and I'm testing my speaking speed."
-🔢 Word count: 9
-⏱️ Duration: 30 seconds
-📈 WPM: 18
-💬 Feedback: 🐢 You're speaking a bit slow.
+# 🎙️ Speaking Speed Detector
+
+![Banner](https://user-images.githubusercontent.com/74038190/212833463-cc98d3e7-9b26-4a78-bcb1-d81d36c692f7.gif)
+
+A Python project that captures English speech 🎧, analyzes the audio input 🎤, and calculates the speaker's **speaking speed (Words Per Minute)** — helpful for public speaking practice, language learners, or just for fun!
+
+---
+
+## 📌 Features
+
+- 🎤 Records audio input in real time
+- 📈 Calculates total word count and duration
+- 🧠 Displays speaking speed in Words Per Minute (WPM)
+- 💬 Supports English speech
+- 📁 Simple and clean CLI interface
+
+---
+
+## 🚀 Technologies Used
+
+- Python 🐍
+- `speech_recognition` for converting speech to text
+- `pyaudio` for recording audio
+- `wave` and `time` for audio processing
+
+---
+
+## 🧪 Demo
+
+Here's how it works:
+
+![Demo](https://media.giphy.com/media/1zSz5MVw4zKg0/giphy.gif)
+
+---
+
+## 🛠️ Installation
+
+### 🔧 Requirements:
+Make sure you have Python 3.7+ installed.
+
+### 📦 Install Dependencies:
+
+```bash
+pip install -r requirements.txt
+pip install SpeechRecognition
+pip install pyaudio
+
